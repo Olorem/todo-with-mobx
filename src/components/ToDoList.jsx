@@ -4,7 +4,7 @@ import { CloseOutlined } from '@ant-design/icons';
 const { Text, Title } = Typography;
 
 const N = 15;
-const filterTypes = ['Все', 'Выполненные', 'Текущие'];
+const filterTypes = ['All', 'Completed', 'Current'];
 
 export const ToDoList = observer(({ ToDoStore }) => {
   
