@@ -11,7 +11,7 @@ ToDo component maintain functionality (respecting requirements):
 7. Displaying counter of completed tasks
 8. Using storage, Redux or <u>MobX</u>
 
-##This is how it looks like:
+## This is how it looks like:
 
 ![ToDoApp](./src/forReadMe.png)
 
