@@ -12,6 +12,7 @@ ToDo component maintain functionality (respecting requirements):
 8. Using storage, Redux or <u>MobX</u>
 
 ##This is how it looks like:
+
 ![ToDoApp](./src/forReadMe.png)
 
 ## Go Ahead And Try It By Yourself
