@@ -55,6 +55,8 @@ class ObservableToDoStore {
       return this.allTodos.filter(x => x.completed)
     if(this.filterType === 2)
       return this.allTodos.filter(x => !x.completed)
+    console.log('smth wrong with filter type - get todos')
+    return this.allTodos;
   }
 
   addTodo(task) {

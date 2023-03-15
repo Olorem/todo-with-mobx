@@ -76,8 +76,8 @@ const ToDoFooter = observer(({ToDoStore}) => {
   }
 
   return (
-    <Space size={5}>
-      <Button type='primary' onClick={addTodoHandler}>Add task</Button>
+    <Space >
+      <Button type='primary' onClick={addTodoHandler} style={{ width: 80 }}>Add task</Button>
       <Input type='text' value={ToDoStore.addTodoInput} onChange={changeHandler} onKeyDown={keyHandler}/>
       {/* <Select 
           value={filterTypes[ToDoStore.filterType]}
@@ -89,7 +89,7 @@ const ToDoFooter = observer(({ToDoStore}) => {
         </Select> */}
       <Select
         defaultValue={filterTypes[0]}
-        style={{ width: 120 }}
+        style={{ width: 80 }}
 
         options={filterTypes.map(x => ({ value: x, label: x }))}
         onChange={selectHandler}

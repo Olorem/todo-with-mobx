@@ -1,7 +1,7 @@
 ## Simple ToDo Web App
 This is a simple ToDo app was created with combination __react__/__mobx__ and styled with __AntDesign__.
 
-ToDo component maintain functionality (respecting requirements):
+ToDo component maintain functionality (respecting [requirements](https://drive.google.com/file/d/17i3HWkCW8OdvmczEcE2p3q-ljU-2sAWz/view)):
 1. Adding new task
 2. New task can be added only if its length less or equal to `N` (in this case `N = 15`)
 3. Listing added tasks
